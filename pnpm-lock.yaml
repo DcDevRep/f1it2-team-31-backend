@@ -1,9 +1,6 @@
 lockfileVersion: '6.0'
 
 dependencies:
-  '@types/node':
-    specifier: ^20.2.3
-    version: 20.2.3
   class-transformer:
     specifier: ^0.5.1
     version: 0.5.1
@@ -36,6 +33,9 @@ devDependencies:
   '@types/morgan':
     specifier: ^1.9.4
     version: 1.9.4
+  '@types/node':
+    specifier: ^20.2.3
+    version: 20.2.3
   concurrently:
     specifier: ^8.0.1
     version: 8.0.1
@@ -108,6 +108,7 @@ packages:
 
   /@types/node@20.2.3:
     resolution: {integrity: sha512-pg9d0yC4rVNWQzX8U7xb4olIOFuuVL9za3bzMT2pu2SU0SNEi66i2qrvhE2qt0HvkhuCaWJu7pLNOt/Pj8BIrw==}
+    dev: true
 
   /@types/qs@6.9.7:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
